@@ -1,0 +1,44 @@
+.App {
+  text-align: center;
+ 
+ 
+}
+
+.principal{
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+.login{
+  
+  margin: auto auto;
+ 
+}
+
+.login input{
+  border-radius: 15px;
+  padding: 5px 35px;
+}
+
+.login button{
+  border-radius: 50%;
+  padding: 2px 5px;
+  font-size: 30px;
+  background:lightgreen;
+  color: white;
+}
+
+.login_presentation{
+ 
+  display: flex;
+  justify-content: center;
+  align-items:flex-start;
+}
+
+.login_element{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}

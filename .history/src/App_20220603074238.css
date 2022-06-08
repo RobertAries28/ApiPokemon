@@ -1,0 +1,78 @@
+.App {
+ 
+ 
+}
+
+.principal{
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+.login{
+  
+  margin: auto auto;
+  padding: 20px;
+ 
+}
+
+.login input{
+  border-radius: 15px;
+  padding: 5px 35px;
+}
+
+.login button{
+  border-radius: 50%;
+  padding: 2px 5px;
+  font-size: 30px;
+  background:lightgreen;
+  color: white;
+  border: none;
+  cursor: pointer;
+  text-align: center;
+}
+
+.login_presentation{
+ 
+  display: flex;
+  justify-content: center;
+  align-items:flex-start;
+}
+
+.login_element{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+
+.cardElement{
+  width: 100%;
+ 
+}
+
+.cardElement_img img{
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
+.cardElement_text{
+  padding: 0 100px;
+} 
+
+.cardElement_inputs{
+  padding: 0 100px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.cardElement_inputs select{
+  width: 500px;
+  height: 40px;
+}
+
+.cardElement_inputs input{
+  width: 300px;
+}

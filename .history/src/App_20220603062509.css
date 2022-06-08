@@ -1,0 +1,9 @@
+.App {
+  text-align: center;
+}
+
+.login_presentation{
+  display: flex;
+  justify-content: center;
+  align-items:flex-start;
+}

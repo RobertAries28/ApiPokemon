@@ -1,0 +1,18 @@
+.App {
+  text-align: center;
+
+  border: 1px solid red;
+}
+
+.login{
+  
+  margin: auto auto;
+  border: 1px solid black;
+}
+
+.login_presentation{
+ 
+  display: flex;
+  justify-content: center;
+  align-items:flex-start;
+}

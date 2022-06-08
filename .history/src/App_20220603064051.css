@@ -1,0 +1,29 @@
+.App {
+  text-align: center;
+  height: 100vh;
+ 
+  display: flex;
+  align-items: center;
+}
+
+.login{
+  
+  margin: auto auto;
+ 
+}
+
+.login input{
+  border-radius: 15px;
+  padding: 5px 35px;
+}
+
+.login button{
+  border-radius: 50%;
+}
+
+.login_presentation{
+ 
+  display: flex;
+  justify-content: center;
+  align-items:flex-start;
+}

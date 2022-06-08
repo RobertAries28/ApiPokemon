@@ -1,0 +1,108 @@
+.App {
+ 
+ 
+}
+
+.principal{
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+.login{
+  
+  margin: auto auto;
+  padding: 20px;
+ 
+}
+
+.login input{
+  border-radius: 15px;
+  padding: 5px 35px;
+}
+
+.login button{
+  border-radius: 50%;
+  padding: 2px 5px;
+  font-size: 30px;
+  background:lightgreen;
+  color: white;
+  border: none;
+  cursor: pointer;
+  text-align: center;
+}
+
+.login_presentation{
+ 
+  display: flex;
+  justify-content: center;
+  align-items:flex-start;
+}
+
+.login_element{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+
+.cardElement{
+  width: 100%;
+ 
+}
+
+.cardElement_img img{
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
+.cardElement_text{
+  padding: 0 100px;
+} 
+
+.cardElement_inputs{
+  padding: 0 100px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.cardElement_inputs select{
+  width: 500px;
+  height: 40px;
+  border: none;
+  box-shadow: 2px 2px 14px -1px rgba(0,0,0,0.75);
+-webkit-box-shadow: 2px 2px 14px -1px rgba(0,0,0,0.75);
+-moz-box-shadow: 2px 2px 14px -1px rgba(0,0,0,0.75);
+}
+
+.cardElement_inputs input{
+  width: 500px;
+  height: 35px;
+  border: none;
+  box-shadow: 2px 2px 14px -1px rgba(0,0,0,0.75);
+-webkit-box-shadow: 2px 2px 14px -1px rgba(0,0,0,0.75);
+-moz-box-shadow: 2px 2px 14px -1px rgba(0,0,0,0.75);
+}
+
+.cardElement_inputs button{
+  width: 100px;
+  height: 40px;
+  background: lightcoral;
+  color: white;
+  border: none;
+
+}
+
+.card_major{
+  margin: auto auto;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card{
+  border: 1px solid red;
+  margin: auto auto;
+}

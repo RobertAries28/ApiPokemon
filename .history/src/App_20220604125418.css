@@ -1,0 +1,380 @@
+.App {
+ 
+ 
+}
+
+.principal{
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+.login{
+  
+  margin: auto auto;
+  padding: 20px;
+ 
+}
+
+.login input{
+  border-radius: 15px;
+  padding: 5px 35px;
+}
+
+.login button{
+  border-radius: 50%;
+  padding: 2px 5px;
+  font-size: 30px;
+  background:lightgreen;
+  color: white;
+  border: none;
+  cursor: pointer;
+  text-align: center;
+}
+
+.login_presentation{
+ 
+  display: flex;
+  justify-content: center;
+  align-items:flex-start;
+}
+
+.login_element{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+
+.cardElement{
+  width: 100%;
+ 
+}
+
+.cardElement_img img{
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  box-shadow: 0px 13px 14px -7px rgba(0,0,0,0.75);
+-webkit-box-shadow: 0px 13px 14px -7px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 13px 14px -7px rgba(0,0,0,0.75);
+
+}
+
+.cardElement_text{
+  padding: 0 100px;
+} 
+
+.cardElement_inputs{
+  padding: 0 100px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.cardElement_inputs select{
+  width: 40%;
+  height: 40px;
+  border: none;
+  box-shadow: 2px 2px 14px -1px rgba(0,0,0,0.75);
+-webkit-box-shadow: 2px 2px 14px -1px rgba(0,0,0,0.75);
+-moz-box-shadow: 2px 2px 14px -1px rgba(0,0,0,0.75);
+}
+
+.cardElement_inputs input{
+  width: 400px;
+  height: 35px;
+  border: none;
+  box-shadow: 2px 2px 14px -1px rgba(0,0,0,0.75);
+-webkit-box-shadow: 2px 2px 14px -1px rgba(0,0,0,0.75);
+-moz-box-shadow: 2px 2px 14px -1px rgba(0,0,0,0.75);
+}
+
+.cardElement_inputs button{
+  width: 100px;
+  height: 40px;
+  background: lightcoral;
+  color: white;
+  border: none;
+
+}
+
+.card_major{
+  margin: auto auto;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  
+}
+
+.card{
+  width: 20%;
+   
+  border: 15px solid #FF3C32;
+  border-radius: 20px;
+  margin: 20px auto;
+  list-style: none;
+  padding: 0;
+  
+ 
+}
+
+.card li{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.card span{
+  color: darkgray;
+  font-weight: bolder;
+}
+
+.card h3{
+  color:dimgray;
+  font-weight: bolder;
+  margin: 0;
+}
+
+.card_img{
+  width: 100%;
+  background: #53575A;
+  display: flex;
+  justify-content: center;
+}
+
+.card_img img{
+  width: 50%;
+  
+  margin: auto auto;
+}
+
+.type{
+  text-align: center;
+}
+
+.card_one{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.card_two{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 15px;
+}
+
+
+.card_three{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 15px;
+}
+
+
+.card_id{
+  border: 1px solid white;
+  margin: 0 150px;
+  margin: 50px;
+  box-shadow: 1px 2px 20px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 1px 2px 20px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 1px 2px 20px 0px rgba(0,0,0,0.75);
+}
+
+.card_id h1{
+  text-align: center;
+}
+
+.card_id--size{
+  display: flex;
+  justify-content: center;
+  
+
+}
+.card_id--size h3{
+  margin: 0  50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.card_id--typeAbilities{
+  display: flex;
+  justify-content: center;
+
+}
+
+.card_id--typeAbilities div{
+  margin: 0  50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.card_id--typeAbilities div h3{
+  margin-bottom: 15px;
+  margin-left: 0;
+  margin-top: 0;
+  margin-right: 0;
+}
+
+.card_id--typeAbilities div span{
+  border: 1px solid white;
+  padding: 5px 10px;
+
+}
+.card_id--typeAbilities div:nth-child(1) span{
+  background: #24b190;
+  color: white;
+}
+
+.card_id--typeAbilities div:nth-child(2) span{
+  border: 1px solid black;
+}
+
+.stats{
+  
+  margin-top: 50px;
+}
+
+.features{
+  padding: 0;
+}
+
+.features li{
+  display: flex;
+  list-style: none;
+ 
+  padding: 0;
+  justify-content: space-between;
+}
+
+.habilidades {
+  width: 100%;
+ 
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
+
+.contenedor {
+  width: 100%;
+  height: 25px;
+  border: 1px solid black;
+  align-self: center;
+  background: #DFE0E0;
+   margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.relleno {
+  width: 0px;
+  height: 100%;
+  background: #FBA905;
+ 
+  animation-name: coloreado;
+  animation-delay: 0s;
+  animation-duration: 3s;
+  animation-timing-function: cubic-bezier(.17, .67, .83, .67);
+  animation-fill-mode: forwards;
+}
+
+.contenedor h2 {
+  position: absolute;
+  right: 655px;
+  margin: 0 auto;
+}
+
+.contenedor h3 {
+  text-align: center;
+  margin: 10px auto;
+}
+
+@keyframes coloreado {
+  10% {
+      width: 0%;
+  }
+  100% {
+      width: 70%;
+  }
+}
+
+.filling{
+  width: 100%;
+  height: 200px;
+  background: red;
+}
+
+.container{
+  padding: 0 100px;
+}
+.img_pokedexId{
+position: absolute;
+left: 450px;
+top: -300px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:768px){
+  .cardElement_inputs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .cardElement_inputs select{
+    width: 100%;
+    margin: 15px 0;
+  }
+
+  .cardElement_inputs input{
+    width: 100%;
+    margin: 15px 0;
+  }
+
+  .cardElement_inputs div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .cardElement_text{
+    text-align: center;
+  }
+
+  .card{
+    width: 100%;
+    margin: 20px 20px;
+  }
+}
